@@ -1,0 +1,106 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.form-title {
+  text-align: center;
+  font-size: 24px; /* Adjust the size as needed */
+  color: #333; /* Title color */
+  margin: 20px 0; /* Space above and below the title */
+  font-weight: bold; /* Bold text */
+}
+
+form {
+  max-width: 400px; /* Center form width */
+  margin: 20px auto; /* Center form on page */
+  padding: 20px; /* Padding inside form */
+  background: white; /* Form background color */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+form input {
+  width: 100%; /* Full width inputs */
+  padding: 10px; /* Padding inside inputs */
+  margin: 10px 0; /* Space between inputs */
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 4px; /* Rounded corners */
+}
+
+form button {
+  background-color: #28a745; /* Button background color */
+  color: white; /* Button text color */
+  border: none; /* No border */
+  padding: 10px; /* Padding inside button */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 4px; /* Rounded corners */
+  width: 100%; /* Full width button */
+}
+
+form button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+ul {
+  padding: 0;
+  list-style-type: none; /* Remove default list styling */
+}
+
+ul li {
+  padding: 10px; /* Padding around list items */
+  border-bottom: 1px solid #ddd; /* Bottom border for separation */
+}
+
+.pagination {
+  list-style-type: none; /* Remove default list styling */
+  display: flex; /* Flex layout for pagination */
+  justify-content: center; /* Center pagination */
+  padding: 20px 0; /* Padding around pagination */
+}
+
+.pagination li {
+  margin: 0 5px; /* Space between pagination buttons */
+}
+
+.pagination button {
+  padding: 5px 10px; /* Padding inside pagination buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+  border: 1px solid #ccc; /* Border for buttons */
+  border-radius: 4px; /* Rounded corners */
+  background-color: #f4f4f4; /* Background color */
+}
+
+.pagination button:hover {
+  background-color: #ddd; /* Darker background on hover */
+}
